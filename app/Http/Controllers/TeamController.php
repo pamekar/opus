@@ -333,13 +333,15 @@ class TeamController extends Controller
      */
     public function uploadLogo(Team $team)
     {
+
+        $public = config('app.env') == 'production' ? '/public' : '';
         $image = $this->request->file('team_logo');
 
         $imageName = 'img_' . date('Y-m-d-H-s') . '.' . $this->request->file('team_logo')->getClientOriginalExtension();
 
         $img = Image::make($image);
         $img->crop((int)$this->request->get('w'), (int)$this->request->get('h'), (int)$this->request->get('x'), (int)$this->request->get('y'));
-        $img->save('img/avatars/' . $imageName);
+        $img->save($public.'/img/avatars/' . $imageName);
 
         $this->team->updateImage($team->id, $imageName);
 
