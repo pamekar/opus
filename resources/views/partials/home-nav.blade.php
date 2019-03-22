@@ -13,7 +13,7 @@
             <a href="#">Faq</a>
         </li>
         <li>
-            <a href="https://github.com/zeeshanu/opus"><i class="fa fa-github-alt fa-fw"></i> Github</a>
+            <a href="https://github.com/pamekar/opus"><i class="fa fa-github-alt fa-fw"></i> Github</a>
         </li>
 	</ul>
 </div>
