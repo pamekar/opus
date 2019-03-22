@@ -36,9 +36,9 @@
                                     <div class="media member-list-item">
                                         <a class="pull-left" href="#">
                                             @if(!$member->profile_image)
-                                                <img class="media-object" style="border-radius: 3px;" src="/img/no-image.png" width="42" height="42" alt="Image">
+                                                <img class="media-object" style="border-radius: 3px;" src="{{$public}}/img/no-image.png" width="42" height="42" alt="Image">
                                             @else
-                                                <img class="media-object" style="border-radius: 3px;" src="/img/avatars/{{ $member->profile_image }}" width="42" height="42" alt="Image">
+                                                <img class="media-object" style="border-radius: 3px;" src="{{$public}}/img/avatars/{{ $member->profile_image }}" width="42" height="42" alt="Image">
                                             @endif
                                         </a>
                                         <div class="media-body">

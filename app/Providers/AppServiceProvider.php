@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Auth;
+use Illuminate\Support\Facades\View;
 use Request;
 use Validator;
 use App\Models\Role;
@@ -97,6 +98,10 @@ class AppServiceProvider extends ServiceProvider
 
             return true;
         });
+
+        $public = config('app.env') == 'production' ? '/public' : '';
+
+        View::share(['public'=> $public]);
     }
 
     /**

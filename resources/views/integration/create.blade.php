@@ -11,7 +11,7 @@
                 <div class="integration-content" style="width: 400px; margin: auto; margin-top: 32px;">
                     <div class="media">
                         <div class="pull-left" style="padding-right: 38px;">
-                            <img class="media-object" src="/img/slack.png" alt="Image" width="62" height="62">
+                            <img class="media-object" src="{{$public}}/img/slack.png" alt="Image" width="62" height="62">
                         </div>
                         <div class="media-body" style="width: 590px;">
                             <h4 class="media-heading" style="font-size: 18px; font-weight: 700;">Slack</h4>

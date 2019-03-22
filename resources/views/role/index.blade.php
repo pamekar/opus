@@ -50,9 +50,9 @@
                                                     <div class="media">
                                                         <div class="pull-left group-member-img">
                                                             @if($member->profile_image)
-                                                                <img class="media-object" src="/img/avatars/{{ $member->profile_image }}" width="50" height="50" alt="Image">
+                                                                <img class="media-object" src="{{$public}}/img/avatars/{{ $member->profile_image }}" width="50" height="50" alt="Image">
                                                             @else
-                                                                <img class="media-object" src="/img/no-image.png" width="50" height="50" alt="Image">
+                                                                <img class="media-object" src="{{$public}}/img/no-image.png" width="50" height="50" alt="Image">
                                                             @endif
                                                         </div>
                                                         <div class="media-body">

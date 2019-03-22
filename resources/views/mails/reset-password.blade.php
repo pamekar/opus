@@ -48,7 +48,7 @@
     <div class="container">
         <div style="width: 580px;">
             <div style="margin-bottom: 15px;">
-                <img src="http://opus.dev/img/home-logo.png" width="74" alt="">
+                <img src="http://opus.dev{{$public}}/img/home-logo.png" width="74" alt="">
             </div>
             <p>Hello {{ $email }}!</p>
             <p style="margin-bottom: 18px;">Someone has requested a link to change your password. You can do this through the link below.</p>

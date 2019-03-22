@@ -14,9 +14,9 @@
 				<li class="with-img">
 					<a href="{{ route('dashboard', [ Auth::user()->getTeam()->slug ]) }}" style="font-size: 13px;">
 						@if($team->team_logo)
-                            <img src="/img/avatars/{{ $team->team_logo }}" alt="" width="155" height="155" class="media-object" style="border-radius: 3px;">
+                            <img src="{{$public}}/img/avatars/{{ $team->team_logo }}" alt="" width="155" height="155" class="media-object" style="border-radius: 3px;">
                         @else
-                            <img src="/img/no-image.png" alt="" width="155" height="155" class="media-object" style="border-radius: 3px;">
+                            <img src="{{$public}}/img/no-image.png" alt="" width="155" height="155" class="media-object" style="border-radius: 3px;">
                         @endif
                         {{ $team->name }}
 					</a>
@@ -71,9 +71,9 @@
 			                        				    <div class="pull-left event-user-image" href="">
 				                        				    <?php $user_image = \App\Models\User::find($notification->from_id)->profile_image; ?>
 				                        				    @if($user_image)
-										                        <img class="media-object" style="border-radius: 3px;" src="/img/avatars/{{ $user_image }}" width="42" height="42" alt="Image">
+										                        <img class="media-object" style="border-radius: 3px;" src="{{$public}}/img/avatars/{{ $user_image }}" width="42" height="42" alt="Image">
 										                    @else
-										                        <img class="media-object" style="border-radius: 3px;" src="/img/no-image.png" width="44" height="44" alt="Image">
+										                        <img class="media-object" style="border-radius: 3px;" src="{{$public}}/img/no-image.png" width="44" height="44" alt="Image">
 										                    @endif
 			                        				    </div>
 			                        				    <div class="media-body">

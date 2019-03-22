@@ -5,16 +5,16 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" type="image/png" href="/img/favicon.png">
-		<link rel="stylesheet" href="/css/bootstrap.min.css">
-		<link rel="stylesheet" href="/css/app.css">
-		<link rel="stylesheet" href="/css/font-awesome.css">
-		<link rel="stylesheet" href="/plugins/jcrop/Jcrop.min.css">
-		<link rel="stylesheet" href="/css/toastr.min.css">
-		<link href="/plugins/ckeditor/plugins/codesnippet/lib/highlight/styles/github.css" rel="stylesheet">
-		<link href="/plugins/vakata-jstree/dist/themes/default/style.css" rel="stylesheet">
-		<link href="/plugins/atjs/jquery.atwho.min.css" rel="stylesheet">
-		<link href="/plugins/select2/select2.min.css" rel="stylesheet">
+        <link rel="shortcut icon" type="image/png" href="{{$public}}/img/favicon.png">
+		<link rel="stylesheet" href="{{asset("$public/css/bootstrap.min.css")}}">
+		<link rel="stylesheet" href="{{asset("$public/css/app.css")}}">
+		<link rel="stylesheet" href="{{asset("$public/css/font-awesome.css")}}">
+		<link rel="stylesheet" href="{{asset("$public/plugins/jcrop/Jcrop.min.css")}}">
+		<link rel="stylesheet" href="{{asset("$public/css/toastr.min.css")}}">
+		<link href="{{asset("$public/plugins/ckeditor/plugins/codesnippet/lib/highlight/styles/github.css")}}" rel="stylesheet">
+		<link href="{{asset("$public/plugins/vakata-jstree/dist/themes/default/style.css")}}" rel="stylesheet">
+		<link href="{{asset("$public/plugins/atjs/jquery.atwho.min.css")}}" rel="stylesheet">
+		<link href="{{asset("$public/plugins/select2/select2.min.css")}}" rel="stylesheet">
 	</head>
 	<body @if(isset($editWiki) && $editWiki === true) style="overflow: hidden;" @endif>
 		<div class="modal fade" id="team-logo-modal" data-keyboard="false" data-backdrop="static">
@@ -48,23 +48,23 @@
 			
 		</div>
 
-		<script type="text/javascript" src="/js/jquery.js"></script>
-		<script type="text/javascript" src="/js/list.min.js"></script>
-		<script type="text/javascript" src="/js/laroute.js"></script>
-		<script type="text/javascript" src="/js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="/plugins/jcrop/Jcrop.min.js"></script>
-		<script type="text/javascript" src="/plugins/jquery-infinitescroll/jquery.infinitescroll.min.js"></script>
-		<script type="text/javascript" src="/js/app.js"></script>
-		<script type="text/javascript" src="/js/toastr.min.js"></script>
-		<script type="text/javascript" src="/plugins/ckeditor/ckeditor.js"></script>
-		<script type="text/javascript" src="/js/moment.min.js"></script>
-		<script type="text/javascript" src="/js/color-hash.js"></script>
-		<script type="text/javascript" src="/js/laravel-delete-req.js"></script>
-		<script src="/plugins/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js"></script>
-		<script src="/plugins/vakata-jstree/dist/jstree.min.js"></script>
-		<script src="/plugins/atjs/jquery.caret.min.js"></script>
-		<script src="/plugins/atjs/jquery.atwho.min.js"></script>
-		<script src="/plugins/select2/select2.full.min.js"></script>
+		<script type="text/javascript" src="{{asset("$public/js/jquery.js")}}"></script>
+		<script type="text/javascript" src="{{asset("$public/js/list.min.js")}}"></script>
+		<script type="text/javascript" src="{{asset("$public/js/laroute.js")}}"></script>
+		<script type="text/javascript" src="{{asset("$public/js/bootstrap.min.js")}}"></script>
+		<script type="text/javascript" src="{{asset("$public/plugins/jcrop/Jcrop.min.js")}}"></script>
+		<script type="text/javascript" src="{{asset("$public/plugins/jquery-infinitescroll/jquery.infinitescroll.min.js")}}"></script>
+		<script type="text/javascript" src="{{asset("$public/js/app.js")}}"></script>
+		<script type="text/javascript" src="{{asset("$public/js/toastr.min.js")}}"></script>
+		<script type="text/javascript" src="{{asset("$public/plugins/ckeditor/ckeditor.js")}}"></script>
+		<script type="text/javascript" src="{{asset("$public/js/moment.min.js")}}"></script>
+		<script type="text/javascript" src="{{asset("$public/js/color-hash.js")}}"></script>
+		<script type="text/javascript" src="{{asset("$public/js/laravel-delete-req.js")}}"></script>
+		<script src="{{asset("$public/plugins/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js")}}"></script>
+		<script src="{{asset("$public/plugins/vakata-jstree/dist/jstree.min.js")}}"></script>
+		<script src="{{asset("$public/plugins/atjs/jquery.caret.min.js")}}"></script>
+		<script src="{{asset("$public/plugins/atjs/jquery.atwho.min.js")}}"></script>
+		<script src="{{asset("$public/plugins/select2/select2.full.min.js")}}"></script>
         <script>
             (function() {
                 hljs.initHighlightingOnLoad();

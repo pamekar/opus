@@ -27,9 +27,9 @@
                     <div class="media">
                         <div class="pull-left">
                             @if($team->team_logo)
-                                <img src="/img/avatars/{{ $team->team_logo }}" alt="" width="155" height="155" class="media-object" style="border-radius: 3px;">
+                                <img src="{{$public}}/img/avatars/{{ $team->team_logo }}" alt="" width="155" height="155" class="media-object" style="border-radius: 3px;">
                             @else
-                                <img src="/img/no-image.png" alt="" width="155" height="155" class="media-object" style="border-radius: 3px;">
+                                <img src="{{$public}}/img/no-image.png" alt="" width="155" height="155" class="media-object" style="border-radius: 3px;">
                             @endif
                         </div>
                         <div class="media-body avatar-upload-form-con">

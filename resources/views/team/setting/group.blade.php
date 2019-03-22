@@ -50,9 +50,9 @@
                                                     <div class="media">
                                                         <a class="pull-left group-member-img" href="#">
                                                             @if($member->profile_image)
-                                                                <img class="media-object" src="/img/avatars/{{ $member->profile_image }}" width="50" height="50" alt="Image" data-toggle="tooltip" data-placement="top" title="" data-original-title="{{ $member->first_name . ' ' . $member->last_name }}">
+                                                                <img class="media-object" src="{{$public}}/img/avatars/{{ $member->profile_image }}" width="50" height="50" alt="Image" data-toggle="tooltip" data-placement="top" title="" data-original-title="{{ $member->first_name . ' ' . $member->last_name }}">
                                                             @else
-                                                                <img class="media-object" src="/img/no-image.png" width="50" height="50" alt="Image" data-toggle="tooltip" data-placement="top" title="" data-original-title="{{ $member->first_name . ' ' . $member->last_name }}">
+                                                                <img class="media-object" src="{{$public}}/img/no-image.png" width="50" height="50" alt="Image" data-toggle="tooltip" data-placement="top" title="" data-original-title="{{ $member->first_name . ' ' . $member->last_name }}">
                                                             @endif
                                                         </a>
                                                         <div class="media-body">

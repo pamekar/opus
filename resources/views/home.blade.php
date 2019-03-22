@@ -7,7 +7,7 @@
             <div>
                 <div style="padding: 109px 0px;" class="text-center">
                     <div style="margin-bottom: 45px;">
-                        <img src="/img/white-logo.png" alt="">
+                        <img src="{{$public}}/img/white-logo.png" alt="">
                     </div>
                     <h1 style="line-height: 52px;font-size: 38px; font-weight: 700; width: 610px; margin: auto auto 24px;color: white;font-weight: 100;">Opus lets you work more collaboratively and get more done.</h1>
                     <p class="minor-text" style="font-size: 17px;width: 550px;margin: auto auto 24px;font-weight: normal;color: white;">Opus let you work more collaboratively to document who you are, what you do and how to achieve results.</p>
@@ -29,7 +29,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="margin-bottom: 45px;">
 					<div class="media">
 						<div class="pull-left" style="padding-right: 20px;">
-							<img src="img/icons/browser.png" class="media-object">
+							<img src="{{$public}}/img/icons/browser.png" class="media-object">
 						</div>
 						<div class="media-body">
 							<h4 class="media-heading" style="margin-bottom: 10px; font-size: 16px; font-weight: 600; line-height: 26px; color: #444444;">Elegant UI</h4>
@@ -42,7 +42,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="margin-bottom: 45px;">
 					<div class="media">
 						<div class="pull-left" style="padding-right: 20px;">
-							<img src="img/icons/devices.png" class="media-object">
+							<img src="{{$public}}/img/icons/devices.png" class="media-object">
 						</div>
 						<div class="media-body">
 							<h4 class="media-heading" style="margin-bottom: 10px; font-size: 16px; font-weight: 600; line-height: 26px; color: #444444;">Touch-Optimized</h4>
@@ -55,7 +55,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="margin-bottom: 45px;">
 					<div class="media">
 						<div class="pull-left" style="padding-right: 20px;">
-							<img src="img/icons/lightning.png" class="media-object">
+							<img src="{{$public}}/img/icons/lightning.png" class="media-object">
 						</div>
 						<div class="media-body">
 							<h4 class="media-heading" style="margin-bottom: 10px; font-size: 16px; font-weight: 600; line-height: 26px; color: #444444;">Fast</h4>
@@ -68,7 +68,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="margin-bottom: 45px;">
 					<div class="media">
 						<div class="pull-left" style="padding-right: 20px;">
-							<img src="img/icons/megaphone.png" class="media-object">
+							<img src="{{$public}}/img/icons/megaphone.png" class="media-object">
 						</div>
 						<div class="media-body">
 							<h4 class="media-heading" style="margin-bottom: 10px; font-size: 16px; font-weight: 600; line-height: 26px; color: #444444;">Notifications</h4>
@@ -81,7 +81,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="margin-bottom: 45px;">
 					<div class="media">
 						<div class="pull-left" style="padding-right: 20px;">
-							<img src="img/icons/tag.png" class="media-object">
+							<img src="{{$public}}/img/icons/tag.png" class="media-object">
 						</div>
 						<div class="media-body">
 							<h4 class="media-heading" style="margin-bottom: 10px; font-size: 16px; font-weight: 600; line-height: 26px; color: #444444;">Tags</h4>
@@ -94,7 +94,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="margin-bottom: 45px;">
 					<div class="media">
 						<div class="pull-left" style="padding-right: 20px;">
-							<img src="img/icons/chat.png" class="media-object">
+							<img src="{{$public}}/img/icons/chat.png" class="media-object">
 						</div>
 						<div class="media-body">
 							<h4 class="media-heading" style="margin-bottom: 10px; font-size: 16px; font-weight: 600; line-height: 26px; color: #444444;">Instant Replies</h4>
@@ -107,7 +107,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="margin-bottom: 45px;">
 					<div class="media">
 						<div class="pull-left" style="padding-right: 20px;">
-							<img src="img/icons/shield.png" class="media-object">
+							<img src="{{$public}}/img/icons/shield.png" class="media-object">
 						</div>
 						<div class="media-body">
 							<h4 class="media-heading" style="margin-bottom: 10px; font-size: 16px; font-weight: 600; line-height: 26px; color: #444444;">Powerful Permissions</h4>
@@ -120,7 +120,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="margin-bottom: 45px;">
 					<div class="media">
 						<div class="pull-left" style="padding-right: 20px;">
-							<img src="img/icons/clock.png" class="media-object">
+							<img src="{{$public}}/img/icons/clock.png" class="media-object">
 						</div>
 						<div class="media-body">
 							<h4 class="media-heading" style="margin-bottom: 10px; font-size: 16px; font-weight: 600; line-height: 26px; color: #444444;">Real-Time Activity</h4>
@@ -133,7 +133,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="margin-bottom: 38px;">
 					<div class="media">
 						<div class="pull-left" style="padding-right: 20px;">
-							<img src="img/icons/padlock.png" class="media-object">
+							<img src="{{$public}}/img/icons/padlock.png" class="media-object">
 						</div>
 						<div class="media-body">
 							<h4 class="media-heading" style="margin-bottom: 10px; font-size: 16px; font-weight: 600; line-height: 26px; color: #444444;">Moderation Tools</h4>
@@ -146,7 +146,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="margin-bottom: 38px;">
 					<div class="media">
 						<div class="pull-left" style="padding-right: 20px;">
-							<img src="img/icons/text.png" class="media-object">
+							<img src="{{$public}}/img/icons/text.png" class="media-object">
 						</div>
 						<div class="media-body">
 							<h4 class="media-heading" style="margin-bottom: 10px; font-size: 16px; font-weight: 600; line-height: 26px; color: #444444;">Powerful Formatting</h4>

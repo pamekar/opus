@@ -13,9 +13,9 @@
                     <div class="media">
                         <div class="pull-left">
                             @if(Auth::user()->profile_image)
-                                <img src="/img/avatars/{{ Auth::user()->profile_image }}" alt="" width="155" height="155" class="media-object" style="border-radius: 3px;">
+                                <img src="{{$public}}/img/avatars/{{ Auth::user()->profile_image }}" alt="" width="155" height="155" class="media-object" style="border-radius: 3px;">
                             @else
-                                <img src="/img/no-image.png" alt="" width="155" height="155" class="media-object" style="border-radius: 3px;">
+                                <img src="{{$public}}/img/no-image.png" alt="" width="155" height="155" class="media-object" style="border-radius: 3px;">
                             @endif
                         </div>
                         <div class="media-body avatar-upload-form-con">

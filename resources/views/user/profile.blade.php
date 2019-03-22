@@ -9,9 +9,9 @@
 					<div data-spy="affix" data-offset-top="1">
 						<div class="user-image">
 							@if(!empty($user->profile_image)) 
-	                            <img src="/img/avatars/{{ $user->profile_image }}" alt="Image" width="180" height="180" style="border-radius: 3px;">
+	                            <img src="{{$public}}/img/avatars/{{ $user->profile_image }}" alt="Image" width="180" height="180" style="border-radius: 3px;">
 	                        @else
-	                            <img src="/img/no-image.png" alt="Image" width="180" height="180" style="border-radius: 3px;">
+	                            <img src="{{$public}}/img/no-image.png" alt="Image" width="180" height="180" style="border-radius: 3px;">
 	                        @endif
 						</div>
 						<div class="user-detail">

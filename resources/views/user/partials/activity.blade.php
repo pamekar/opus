@@ -4,9 +4,9 @@
             <div class="media event">
                 <a class="pull-left event-user-image" href="{{ route('users.show', [$team->slug, $activity->user->slug]) }}">
                     @if(!empty($user->profile_image)) 
-                        <img class="media-object" style="border-radius: 3px;" src="/img/avatars/{{ $user->profile_image }}" width="44" height="44" alt="Image">
+                        <img class="media-object" style="border-radius: 3px;" src="{{$public}}/img/avatars/{{ $user->profile_image }}" width="44" height="44" alt="Image">
                     @else
-                        <img class="media-object" style="border-radius: 3px;" src="/img/no-image.png" width="44" height="44" alt="Image">
+                        <img class="media-object" style="border-radius: 3px;" src="{{$public}}/img/no-image.png" width="44" height="44" alt="Image">
                     @endif
                 </a>
                 <div class="media-body">

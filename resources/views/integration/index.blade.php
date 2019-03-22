@@ -12,12 +12,12 @@
                     <div class="integration-content" style="margin-top: 40px;">
                         <div class="center-block">
                             {{-- <div class="text-center" style="margin-bottom: 40px;">
-                                <img src="/img/slack-and-brand.png">
+                                <img src="{{$public}}/img/slack-and-brand.png">
                             </div> --}}
                             <div style="width: 450px; text-align: center; margin: auto;">
                                 <h2 style="margin-bottom: 15px; font-size: 2.7em;">Opus for Slack</h2>
                                 <p style="font-size: 16px; margin-bottom: 18px;">Collaboration & communication combined. Link your Opus and Trello teams to build the ultimate productivity powerhouse.</p>
-                                <a href="{{ route('integrations.create', [$team->slug]) }}" class="btn btn-default"><img src="/img/slack.png" width="26" height="26" style="margin-right: 8px;"> <span style="position: relative; top: 2px;">Add to Slack</span></a>
+                                <a href="{{ route('integrations.create', [$team->slug]) }}" class="btn btn-default"><img src="{{$public}}/img/slack.png" width="26" height="26" style="margin-right: 8px;"> <span style="position: relative; top: 2px;">Add to Slack</span></a>
                             </div>
                         </div>
                     </div>
